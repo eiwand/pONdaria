@@ -1,0 +1,100 @@
+<!doctype  html> 
+<html lang = "pt-br">
+	<head> 	
+	
+			
+		<title>PONDARIA</title>
+			<meta charset = "UTF-8" />
+ 	<link rel="stylesheet" type="text/css" href="main.css">
+ 	</head>	
+ 	 <body background="img/fundo-br02.png"  link="#221d1f" alink="#f7941e" vlink="#221d1f" >
+           <center>
+				<header class= "Menu principal">
+				<header background= "img/fundo.png"
+				div class= "logo">
+     		    <img src="img/padaria logo.png"
+				width = "" height="250" />
+            </center>
+		<hr size="5" color= "#f7941e"></hr>
+		<center>
+	      <a href="index.html"><Font face="League Gothic" size="6">HOME</Font></a>
+	      <a href= #top ><Font face="League Gothic" size="6">TOPPÃO</Font></a>
+	      <a href="#"><Font face="League Gothic" size="6">PROMOÇÃO</Font></a>
+	      <a href="pedidos.html"><Font face="League Gothic" size="6">PEDIDOS</Font></a>
+	    </center>	
+		<hr size="5" color= "#f7941e"></hr>
+		<h1 align="left"><Font face="League Gothic" size="15">P<Font color="#FF5722">E</font>DI</font>
+			<Font face="League Gothic" size="15"><Font color="#FF5722">DO</font>S</font>
+		</h1>
+	  	 <form name="frm_comprar" method="GET" action="">
+	  	 	<p><label for="nome">Nome</label>
+	  	 	<input type="text" name="nome" id="nome" autofocus="true"/></p>
+	  	 	
+	  	 <p>
+		  	 <label for="emaill">E-mail:</label>
+		  	 <input type="email" name="email" id="email" placeholder="usuário@email.com" />
+		  	
+		  	 <label for="data">Data</label>
+		  	 <input type="date" name="data" id="data"/>
+		</p>
+	  	
+	  	<p>
+		  	<label for="telefone">Telefone</label>
+		  	<input type="tel" name="telefone" id="telefone" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\{4}.*?$"/>
+		  	<label for="end">Endereço</label>
+		  	<input type="text" name="end" id="end"/>
+		  	</p>
+		  	<p>
+		  	<label for="login">Login</label>
+		  	<input type="text" name="login" id="Login"/>
+		  	<label for="senha">Senha</label>
+		  	<input type="password" name="senha" id="Senha">
+
+	  	</p>
+	  	<p>
+	  	
+		  	<label for="produto">Produto</label>
+		  	<select name="produto" id="produto"> 
+		  	<option value="pao">pão</option>	
+		  	<option name="paodequeijo">pão de queijo</option>	
+		  	<option value="paofrances">pão francês</option>
+		  	<option value="paobaguete">pão baguete</option>
+		  	</select>
+		  	<label for="oferta">Oferta:</label>
+		  	<input type="number" name="oferta" id="oferta" min="0" maxlength="9999" step="0.01" required />
+		 </p>
+	  	
+	  	<fieldset>
+		  	<legend>Pagamento</legend>	
+		  	<input type="radio" name="pagamento" id="dinheiro" value="dinheiro"/>
+		  	<label for="dinheiro">Dinheiro</label></br>
+		  	<input type="radio" name="pagamento" id="cartao" value="cartao"/>
+		  	<label for="cartao">Cartão</label>
+	  	</fieldset>
+		</br>
+		
+		<fieldset>
+		  	<legend>Adicionais</legend>	
+		  	<input type="checkbox" name="adicionais" id="queijo" value="queijo"/>
+		  	<label for="queijo">Queijo</label></br>
+		  	<input type="checkbox" name="adicionais" id="Requeijão" value="Requeijão"/>
+		  	<label for="Requeijão">Requeijão</label></br>
+	  		<input type="checkbox" name="adicionais" id="Geleia" value="Geleia"/>
+		  	<label for="Geleia">Geleia</label></br>
+	  	</fieldset>
+	  	<label  for="msg">Mensagem</label><br>
+	  	<textarea name="msg" id="msg" cols="221" rows="5"></textarea>
+
+	  </br></br>
+
+		<input type="submit" name="btn_comprar" value="COMPRAR">
+	  	 <input type="reset" name="btn_cancelar" value="CANCELAR">
+	  	</form>
+
+			<p align="right"><a href="#">TOPO</a>
+		<hr> </hr>
+		<p align="center"> Desenvolvido por <a href="http://instagram.com/artouy" target="_blank">Wanderson Dias</a> 2019 </p>
+ 	 </body>
+ 	
+</html>
+
